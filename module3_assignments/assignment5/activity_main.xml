@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN-UP FORM"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name \t\t\t\t\t: "
+        android:layout_marginTop="150dp"
+
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name \t\t\t\t\t: "
+        android:layout_below="@id/t1"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email \t\t\t\t\t\t\t\t\t: "
+        android:layout_below="@id/t2"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile no \t\t\t\t\t\t: "
+        android:layout_below="@id/t3"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies \t\t\t\t\t\t\t: "
+        android:layout_below="@id/t4"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender \t\t\t\t\t\t\t\t: "
+        android:layout_below="@id/t5"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City \t\t\t\t\t\t\t\t\t\t\t: "
+        android:layout_below="@id/t6"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+
+        android:layout_below="@id/t7"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conf. Password \t: "
+        android:layout_below="@id/t8"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:layout_toRightOf="@id/t1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="133dp"
+        />
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Name"
+        android:layout_toRightOf="@id/t2"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/e1"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:layout_toRightOf="@id/t2"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/e2"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        />
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile no"
+        android:layout_toRightOf="@id/t2"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/e3"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        />
+
+    <CheckBox
+        android:id="@+id/e5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e4"
+        android:layout_toRightOf="@+id/t5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Playing"
+        android:textSize="10dp"
+        />
+    <CheckBox
+        android:id="@+id/e10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e4"
+        android:layout_toRightOf="@+id/e5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="traveling"
+        android:textSize="10dp"
+        />
+    <CheckBox
+        android:id="@+id/e11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e4"
+        android:layout_toRightOf="@+id/e10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="reading"
+        android:textSize="10dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e11"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/t7">
+
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="Female" />
+
+
+    </RadioGroup>
+
+
+    <!--</RadioGroup>-->
+
+    <Spinner
+        android:id="@+id/e7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/t7"
+        android:layout_below="@+id/rg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/e8"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_toRightOf="@id/t2"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/e7"
+
+        />
+    <EditText
+        android:id="@+id/e9"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Conform Pass"
+        android:inputType="textPassword"
+        android:layout_toRightOf="@id/t2"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/e8"
+        android:layout_marginTop="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e9"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="SignUp"
+
+        />
+
+
+
+
+</RelativeLayout>

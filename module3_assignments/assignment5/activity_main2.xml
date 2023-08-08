@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="data"
+        android:textSize="20sp"
+        android:layout_marginTop="150dp"
+
+
+        />
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d1"
+        android:layout_below="@id/a1"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d2"
+        android:layout_below="@id/a2"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d3"
+        android:layout_below="@id/a3"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/a5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d4"
+        android:layout_below="@id/a4"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:id="@+id/a6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d5"
+        android:layout_below="@id/a5"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+    <RatingBar
+        android:id="@+id/rbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        />
+
+
+
+</RelativeLayout>
