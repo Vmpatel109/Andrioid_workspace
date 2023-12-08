@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_date"
+        android:title="Sort By Date"/>
+
+    <item
+        android:id="@+id/sort_time"
+        android:title="Sort By Time"/>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="ifRoom"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"/>
+
+</menu>

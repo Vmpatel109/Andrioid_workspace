@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#322514">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:weightSum="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_TaskName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data1"
+                android:gravity="center"
+                android:textColor="#be1558"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <TextView
+                android:id="@+id/txt_TaskDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desc"
+                android:gravity="center"
+                android:textColor="#fbcbc9"
+                android:textSize="20sp"/>
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txt_DateTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dt."
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#be1558"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:id="@+id/txt_TaskDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data2"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#fbcbc9"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/txt_TimeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#be1558"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:id="@+id/txt_TaskTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="Data3"
+                    android:textColor="#fbcbc9"
+                    android:textSize="15dp"/>
+
+
+                <TextView
+                    android:id="@+id/txt_PrioTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prio."
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#be1558"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:id="@+id/txt_TaskPrio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="AVERAGE"
+                    android:textColor="#fbcbc9"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
