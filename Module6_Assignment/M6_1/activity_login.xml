@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingStart="25dp"
+    android:gravity="center"
+    android:paddingEnd="25dp">
+
+    <EditText
+        android:id="@+id/edtmob"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_background"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/baseline_call_24"
+        android:hint="Enter Mobile Number"
+        android:padding="15dp"
+        android:textColor="#404040"
+        android:textColorHint="#404040"
+        android:textSize="12sp"
+        android:autofillHints="password" />
+
+
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edt_background"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Enter Password"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:textColor="#404040"
+        android:textColorHint="#404040"
+        android:textSize="12sp"
+        android:autofillHints="password" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_background"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_background"
+        android:text="Do You want to Signup?"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
