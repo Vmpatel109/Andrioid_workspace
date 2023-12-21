@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="INSERT JSON"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textColor="#A8B1B8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/edit_bg"
+        android:layout_marginStart="20dp"
+        android:paddingStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Enter Product Name:"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edit1"
+        android:background="@drawable/edit_bg"
+        android:layout_marginStart="20dp"
+        android:paddingStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Enter Product Price:"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edit2"
+        android:background="@drawable/edit_bg"
+        android:layout_marginStart="20dp"
+        android:paddingStart="30dp"
+        android:paddingBottom="140dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Enter Product Description:"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt1"
+        android:layout_below="@+id/edit3"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Add"
+        android:textSize="25sp"
+        android:background="@drawable/edit_bg"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt2"
+        android:layout_below="@+id/bt1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="View Product"
+        android:textSize="25sp"
+        android:background="@drawable/edit_bg"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
